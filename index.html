@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Amir Advocate</title>
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+	<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+	</script>
+	<script> 
+		$(function(){
+  			$("#header").load("header.html"); 
+  			$("#footer").load("footer.html"); 
+  			$("#certificates").load("certificates.html"); 
+			$("#advantages").load("advantages.html"); 
+			$("#micro-certificates").load("micro-certificates.html"); 
+		});
+	</script> 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+	<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header"></div>
+		<main>
+			<div class="popup__bg"> 
+                <form class="popup">
+                    <img src="images/close-icon.svg" class="close-popup" height="15" width="15">
+					<h1>Заполните форму для того, чтобы получить бесплатную первичную консультацию адвоката по вашему вопросу:</h1>
+                    <label>
+                        <input type="text" name="name" placeholder="Имя">
+                        <div class="label__text">
+                            Имя
+                        </div>
+                    </label>
+                    <label>
+                        <input id="online_phone" name="phone" type="tel" maxlength="50"
+         				required="required"
+        				value="+7(___)___-__-__"
+         				pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+         				placeholder="+7(___)___-__-__">
+                        <div class="label__text">
+                            Ваш телефон
+                        </div>
+                    </label>
+                   <h3>Заполняя форму, вы предоставляете согласие на обработку персональных данных.</h3>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>  
+			<div class="main_block1">
+				<div class="main_block1-left">
+					<h1>Юридическая помощь</h1>
+					<h3> 
+						Профессиональная помощь адвоката в решении юридических вопросов
+						в Санкт-Петербурге, в России и за пределами Российской Федерации.
+					</h3>
+				</div>
+				<div class="main_block1-right">
+					<h1>Запишитесь на консультацию</h1>
+					<h3>
+						По телефону можно предварительно обсудить юридическую проблему и выбрать удобное
+						время для проведения очной консультации
+					</h3>
+					<button class="main_block1-button open-popup">
+						Записаться
+					</button>
+				</div>
+			</div>
+			<div class="simple-label">Сферы практики</div>
+			<div class="main_block2">
+				<div class="main_block2-left">
+					<h1>Физическим лицам</h1>
+					<div class="main_block-line">
+						<img src="images\international-law.png" class="main_block-line-icon" alt="">
+						<a href="international-law.html"><button class="button-main_block2">Международное право</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\family.png" class="main_block-line-icon" alt="">
+						<a href="family-law.html"><button class="button-main_block2">Семейные споры</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\heritage-law.png" class="main_block-line-icon" alt="">
+						<a href="heritage-law.html"><button class="button-main_block2">Наследственные споры</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\debt-law.png" class="main_block-line-icon" alt="">
+						<a href="debt-law.html"><button class="button-main_block2">Взыскание долгов</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\labour-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="labour-law.html"><button class="button-main_block2">Трудовые споры</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\copyright-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="copyright-law.html"><button class="button-main_block2">Защита авторских прав</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\consumer-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="consumer-law.html"><button class="button-main_block2">Защита прав потребителей</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\health-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="health-law.html"><button class="button-main_block2">Медицинские споры</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\migration-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="migration-law.html"><button class="button-main_block2">Миграционное право</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\credit-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="credit-law.html"><button class="button-main_block2">Кредитные споры</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\realestate-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="real_estate-law.html"><button class="button-main_block2">Споры по недвижимости</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\realestate_trade-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="real_estate_trade-law.html"><button class="button-main_block2">Сделки с недвижимостью</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\auto-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="auto-law.html"><button class="button-main_block2">Автоюрист</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\criminal-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="criminal-law.html"><button class="button-main_block2">Уголовное право</button></a>
+					</div>
+				</div>
+				<div class="main_block2-right">
+					<h1>Юридическим лицам</h1>
+					<div class="main_block-line">
+						<img src="images\arbitration-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="arbitration-law.html"><button class="button-main_block2">Споры в арбитражном суде</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\outsource-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="outsource-law.html"><button class="button-main_block2">Аутсорсинг юридических услуг</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\labour-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="labour-law.html"><button class="button-main_block2">Трудовые споры</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\honour-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="honor-law.html"><button class="button-main_block2">Защита чести и деловой репутации</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\bank-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="bank-law.html"><button class="button-main_block2">Споры с банками</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\business-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="business-law.html"><button class="button-main_block2">Уголовное право и защита бизнеса</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\realestate-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="rent-law.html"><button class="button-main_block2">Споры по недвижимости и аренде</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\international-law.png" class="main_block-line-icon" alt="">
+						<a href="private_international-law.html"><button class="button-main_block2">Международное частное право</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\contract-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="contract-law.html"><button class="button-main_block2">Работа с договорами</button></a>
+					</div>
+					<div class="main_block-line">
+						<img src="images\representaion-law-icon.png" class="main_block-line-icon" alt="">
+						<a href="representation-law.html"><button class="button-main_block2">Представление интересов</button></a>
+					</div>
+				</div>
+			</div>
+			<div id="advantages"></div>
+			<div class="main_block4">
+				<h1 class="simple-label">ОБ АДВОКАТЕ</h1>
+				<div class="main_block4-container">
+					<img src="images\amir_photo.jpg" class="main_block4-container-photo" alt="">
+					<div class="main_block4-container-info">
+						<h3 class="main_block4-container-info-text">
+							Юрист широкого профиля, адвокат, востоковед, специалист по международным
+							отношениям и международному праву.
+							Все сферы компетенции охватываются соответствующим опытом работы как в
+							государственных органах (Министерство иностранных дел, Министерство юстиции,
+							Следственный комитет), так и в частных Российских и международных компаниях
+							(Газпром).
+						</h3>
+						<button class="main_block4-container-info-button open-popup">
+							Заказать консультацию
+						</button>
+					</div>
+				</div>
+			</div>
+			<div id="micro-certificates"></div>
+			<div>
+				<h1 class="simple-label">ПОСЛЕДНИЕ НОВОСТИ</h1>
+				<div class="news-block">
+					<a href="news-test.html"><img src="images\news-filler.jpg" alt="" class="news-block-photo"></a>
+					<div class="news-block-info">
+						<div class="news-block-info-head">
+							<a href="news-test.html" class="news-block-info-head-link">
+								<h1>Название новости</h1>
+							</a>
+							<h4 class="news-block-info-head-date">22.11.23</h4>
+						</div>
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							 Tempore aspernatur sed explicabo earum libero. Esse soluta
+							  commodi accusantium hic ad, vero qui nam quam nesciunt veniam
+							   deserunt, nulla, harum fuga?
+						</h3>
+					</div>
+				</div>
+				<div class="news-block">
+					<img src="images\news-filler.jpg" alt="" class="news-block-photo">
+					<div class="news-block-info">
+						<div class="news-block-info-head">
+							<h1>Название новости</h1>
+							<h4 class="news-block-info-head-date">00.00.00</h4>
+						</div>
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							 Tempore aspernatur sed explicabo earum libero. Esse soluta
+							  commodi accusantium hic ad, vero qui nam quam nesciunt veniam
+							   deserunt, nulla, harum fuga?
+						</h3>
+					</div>
+				</div>
+				<div class="news-block">
+					<img src="images\news-filler.jpg" alt="" class="news-block-photo">
+					<div class="news-block-info">
+						<div class="news-block-info-head">
+							<h1>Название новости</h1>
+							<h4 class="news-block-info-head-date">00.00.00</h4>
+						</div>
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							 Tempore aspernatur sed explicabo earum libero. Esse soluta
+							  commodi accusantium hic ad, vero qui nam quam nesciunt veniam
+							   deserunt, nulla, harum fuga?
+						</h3>
+					</div>
+				</div>
+				<div class="news-more"><a href="news.html">Читать ещё...</a></div>
+			</div>
+		</main>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>

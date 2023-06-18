@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Amir Advocate</title>
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+	<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+	</script>
+	<script> 
+		$(function(){
+  			$("#header").load("header.html"); 
+  			$("#footer").load("footer.html"); 
+		});
+	</script> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header"></div>
+		<main>
+			<div class="popup__bg"> 
+                <form class="popup">
+                    <img src="images/close-icon.svg" class="close-popup" height="15" width="15">
+					<h1>Заполните форму для того, чтобы получить бесплатную первичную консультацию адвоката по вашему вопросу:</h1>
+                    <label>
+                        <input type="text" name="name" placeholder="Имя">
+                        <div class="label__text">
+                            Имя
+                        </div>
+                    </label>
+                    <label>
+                        <input id="online_phone" name="phone" type="tel" maxlength="50"
+         				required="required"
+        				value="+7(___)___-__-__"
+         				pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+         				placeholder="+7(___)___-__-__">
+                        <div class="label__text">
+                            Ваш телефон
+                        </div>
+                    </label>
+                   <h3>Заполняя форму, вы предоставляете согласие на обработку персональных данных.</h3>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>  
+			<div class="megalabel">
+                Сферы практики
+            </div>
+            <div class="areas_of_practice-block1">
+                <h3 class="areas_of_practice-block1-left">
+                    Я оказываю квалифицированную юридическую помощь в различных областях права.
+					Все сферы компетенции охватываются соответствующим опытом работы как в
+					государственных органах (Министерство иностранных дел, Министерство юстиции,
+					Следственный комитет), так и в частных российских и международных компаниях
+					(Газпром).
+					<br><br>
+                    Некоторые вопросы затрагивают сразу несколько правовых отраслей.
+                    К примеру, раздел имущества супругами при бракоразводном процессе может быть
+					осложнен тем, что один из супругов является иностранным гражданином, либо часть
+					имущества находится за пределами России.
+					<br><br>
+                    Другой пример – оказание юридической помощи компаниям в арбитражных спорах, в
+					процессе чего может появиться уголовное дело или в компании могут начаться обыски. В
+					данном случае важно не только выиграть спор в суде по гражданскому делу, но и
+					обеспечить защиту прав компании в рамках уголовного права.
+                </h3>
+                <div class="areas_of_practice-block1-right">
+                    <img src="images\telephone-consult-img.png" class="areas_of_practice-consult_img" alt="">
+                    <h1 class="areas_of_practice-block1-right-label">
+                        Запишитесь на консультацию
+                    </h1>
+                    <h3 class="areas_of_practice-block1-right-text">
+						По телефону можно предварительно обсудить юридическую проблему и выбрать удобное
+						время для проведения очной консультации
+                    </h3>
+                    <p class="open-popup areas_of_practice-block1-right-button_consult">
+                        Консультация
+                    </p>
+                </div>
+            </div>
+            <div class="simple-text">
+                <h3>
+                   
+                </h3>
+            </div>
+            <div class="simple-label">Сферы практики</div>
+            <div class="areas_of_practice-block2">
+                <div class="areas_of_practice-block2-phys">
+                    <h1>Физическим лицам</h1>
+                    <ul class="areas_of_practice-block2-list">
+                        <li><a href="international-law.html">Международное право</a></li>
+                        <li><a href="family-law.html">Семейные споры</a></li>
+                        <li><a href="heritage-law.html">Наследственные споры</a></li>
+                        <li><a href="debt-law.html">Взыскание долгов</a></li>
+                        <li><a href="labour-law.html">Трудовые споры</a></li>
+                        <li><a href="copyright-law.html">Защита авторских прав</a></li>
+                        <li><a href="consumer-law.html">Защита прав потребителей</a></li>
+                        <li><a href="health-law.html">Медицинские споры</a></li>
+                        <li><a href="migration-law.html">Миграционное право</a></li>
+                        <li><a href="credit-law.html">Кредитные споры</a></li>
+                        <li><a href="real_estate-law.html">Споры по недвижимости</a></li>
+                        <li><a href="real_estate_trade-law.html">Сделки с недвижимостью</a></li>
+                        <li><a href="auto-law.html">Автоюрист</a></li>
+                        <li><a href="criminal-law.html">Уголовное право</a></li>
+                    </ul>
+                </div>
+                <div class="areas_of_practice-block2-juri">
+                    <h1>Юридическим лицам</h1>
+                    <ul class="areas_of_practice-block2-list">
+                        <li><a href="arbitration-law.html">Споры в арбитражном суде</a></li>
+                        <li><a href="outsource-law.html">Аутсорсинг юридических услуг</a></li>
+                        <li><a href="labour-law.html">Трудовые споры</a></li>
+                        <li><a href="honor-law.html">Защита чести и деловой репутации</a></li>
+                        <li><a href="bank-law.html">Споры с банками</a></li>
+                        <li><a href="business-law.html">Уголовное право и защита бизнеса</a></li>
+                        <li><a href="rent-law.html">Споры по недвижимости и аренде</a></li>
+                        <li><a href="private_international-law.html">Международное частное право</a></li>
+                        <li><a href="contract-law.html">Работа с договорами</a></li>
+                        <li><a href="representation-law.html">Представление интересов</a></li>
+                    </ul>
+                </div>
+            </div>            
+		</main>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>

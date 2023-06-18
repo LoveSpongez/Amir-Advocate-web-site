@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Amir Advocate</title>
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+	</script>
+	<script> 
+		$(function(){
+  			$("#header").load("header.html"); 
+  			$("#footer").load("footer.html"); 
+  			$("#advantages").load("advantages.html"); 
+			$("#micro-certificates").load("micro-certificates.html"); 
+		});
+	</script> 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+	<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header"></div>
+		<main>
+			<div class="popup__bg"> 
+                <form class="popup">
+                    <img src="images/close-icon.svg" class="close-popup" height="15" width="15">
+					<h1>Заполните форму для того, чтобы получить бесплатную первичную консультацию адвоката по вашему вопросу:</h1>
+                    <label>
+                        <input type="text" name="name" placeholder="Имя">
+                        <div class="label__text">
+                            Имя
+                        </div>
+                    </label>
+                    <label>
+                        <input id="online_phone" name="phone" type="tel" maxlength="50"
+         				required="required"
+        				value="+7(___)___-__-__"
+         				pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+         				placeholder="+7(___)___-__-__">
+                        <div class="label__text">
+                            Ваш телефон
+                        </div>
+                    </label>
+                   <h3>Заполняя форму, вы предоставляете согласие на обработку персональных данных.</h3>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>  
+			<div class="megalabel">
+                Наследственные споры
+            </div>
+            <div class="areas_of_practice-block1">
+                <h3 class="areas_of_practice-block1-left">
+                    Наследственные споры происходят повсеместно, поскольку далеко 
+					не всегда наследодатели четко и недвусмысленно выражают свою волю 
+					по поводу распределения имущества между наследниками, составляя завещания.
+					<br><br>
+					В таких случаях в действие вступают общие нормы гражданского 
+					кодекса, где прописаны соответствующие линии наследования, 
+					распределяются доли наследников в зависимости от степени родства. 
+					Общие правила далеко не всегда устраивают потенциальных наследников 
+					и это создает риск дальнейшего разбирательства уже в судебном порядке. 
+                </h3>
+                <div class="areas_of_practice-block1-right">
+                    <h1 class="areas_of_practice-block1-right-label">
+                        Запишитесь на консультацию
+                    </h1>
+                    <h3 class="areas_of_practice-block1-right-text">
+						Обсудите по телефону юридическую 
+						проблему и выберите удобное время для проведения очной консультации
+					</h3>
+                    <p class="open-popup areas_of_practice-block1-right-button_consult">
+                        Консультация
+                    </p>
+                </div>
+            </div>
+			<div class="law-text">
+				<div class="law-text-divide">
+					<img src="images\heritage-law-img.png" alt="" class="law-container-img">
+					<h3>
+						Но даже в случае наличия завещания сохраняется риск того, 
+						что кто-то из наследников постарается его оспорить.
+						<br><br>
+						Основания для оспаривания могут быть разные. 
+						Примером тому может быть порок воли, когда наследодатель 
+						не в полном мере осознавал характер совершаемой сделки в 
+						виде подписания завещания.
+						<br><br>
+						В обеих ситуациях перспектива суда требует тщательной 
+						подготовки и анализа расстановки сил в споре.
+						<br><br>
+						Шансы стороны, которая считает свое право нарушенным, 
+						в суде значительно возрастают, если к вопросу подключается 
+						адвокат по наследственным спорам. 
+					</h3>
+				</div>
+				<h3>
+					Квалификация и опыт адвоката по наследственным 
+					спорам помогут правильно оценить шансы, собрать 
+					необходимые доказательства и грамотно представить 
+					интересы в суде.
+				</h3>
+			</div>
+			<div class="simple-label">Основные направления деятельности адвоката <br> по наследственным спорам:</div>
+			<div class="law-container">
+                <ul class="law-container-list">
+                   <li>Консультирование</li> 
+                   <li>Изучение документов и завещания</li> 
+                   <li>Помощь в сборе доказательств</li> 
+                   <li>Представление интересов в суде</li>
+                </ul>
+                <img src="images\heritage-law-img-2.png" alt="" class="law-container-list-img">
+            </div>
+			<div id="advantages"></div>
+			<div id="micro-certificates"></div>
+		</main>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>
